@@ -175,8 +175,8 @@ border: none;
 display: flex;
 flex-flow: row wrap;
 padding: 30px 30px 20px 30px;
-color: white;
-background-color: burlywood;
+color: black;
+background-color: white;
 }
 
 .footer_section {
@@ -289,3 +289,8 @@ color: #2f2f2f;
 }
 
 
+.logo {
+
+  width: 4rem;
+
+}

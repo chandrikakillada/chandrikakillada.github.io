@@ -14,6 +14,11 @@ body {
 .pic{
   background-repeat: space;
 }
+
+.header a.active {
+  background-color: white;
+    color: black;
+}
 .header a {
   float: left;
   color: white;
@@ -132,6 +137,7 @@ background-size: 112%;
   color: #fff;
   letter-spacing: 5px;
   display: block;
+  text-decoration:none;
 }
 
 .header a.logo {

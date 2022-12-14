@@ -117,6 +117,9 @@ section  {
 }
 #error1, #error2 {
     color: red;
+    margin-top: -1rem;
+    font-size: 15px;
+    margin-bottom: 1rem;
 }
 .submit {
       border-radius: 5em;
@@ -1000,7 +1003,7 @@ body {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #00000085;
 }
 
 .container:hover .overlay {
@@ -1022,4 +1025,10 @@ body {
 .trains-body {
   background-color: lavender;
   background-image: none;
+}
+
+.main {
+
+  padding: 2rem;
+
 }

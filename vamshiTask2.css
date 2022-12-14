@@ -20,6 +20,11 @@
   border-radius: 4px;
 }
 
+.header a.active {
+  background-color: white;
+    color: black;
+}
+
 
 body{
 background-image: url("vamshi_imgs/cntower.jpg");

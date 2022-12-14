@@ -1,6 +1,6 @@
 .header {
   overflow: hidden;
-  background-color: burlywood;
+  background-color: black;
   padding: 20px 10px;
 }
 
@@ -10,7 +10,7 @@
 
 .header a {
   float: left;
-  color: black;
+  color: white;
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -71,7 +71,7 @@ body {
   flex-flow: row wrap;
   padding: 30px 30px 20px 30px;
   color: white;
-  background-color: black;
+  background-color: white;
 }
 
 .footer_section {
@@ -80,6 +80,7 @@ body {
 }
 
 .name_page {
+  color: black;
   font-family: 'Pacifico', cursive;
   font-weight: 400;
   text-transform: lowercase;
@@ -87,6 +88,7 @@ body {
 }
 
 .footer_section h2 {
+  color: black;
   margin-top: 1.3em;
   font-size: 15px;
   font-weight: 400;
@@ -100,7 +102,7 @@ body {
 
 .footer address {
   font-style: normal;
-  color: #999;
+  color: black;
 }
 
 .link_f {
@@ -137,7 +139,7 @@ body {
 }
 
 .ul_f a {
-  color: #999;
+  color: black;
 }
 
 .ul_f--extra {
@@ -150,7 +152,7 @@ li {
 }
 .copy_f {
   margin-top: 12rem;
-  color: #999;
+  color: black;
 }
   
 .link_f {
@@ -176,6 +178,7 @@ li {
   
   .list_f {
     flex: 2 0px;
+    color: black;
   }
 }
 body {

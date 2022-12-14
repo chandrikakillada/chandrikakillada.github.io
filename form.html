@@ -5,18 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hotel Booking Form</title>
-    <link rel="stylesheet" href="krunal_css/style1.css" />
+    <link rel="stylesheet" href="./krunal_css/style1.css" />
   </head>
   <body>
+    <header class="header">
+      <a href="#default" class="logo">PYB</a>
+      <img src="logo2.png" class="logo2" width="4%" height="4%">
+      <div class="header-right">
+        <a class="active header_items" href="index.html">Home</a>
+        <a class="header_items" href="#contact">Contact</a>
+        <a href="./chandrika html/main.html">Logout</a>
+      </div>
+</header>
     <div class="form-container">
-      <header class="header">
-        <a href="#default" class="logo">Travel Page</a>
-        <div class="header-right">
-          <a class="active header_items" href="#home">Home</a>
-          <a class="header_items" href="#contact">Contact</a>
-          <a class="active header_items" href="../chandrika html/main.html">Logout</a>
-        </div>
-  </header>
       <form class="booking-form" id="reservations">
         <div class="label-input">
           <label for="firstName">First Name</label>
@@ -93,17 +94,15 @@
       </div>
       </form>
       <div class="btn-container">
-        <button class="confirm-btn" form="reservations">
-          Confirm Reservation
-        </button>
+        <button class="confirm-btn" onclick="window.location.href='payment.html'" form="reservations" >Confirm Reservation</button>
       </div>
     </div>
     <footer class="footer">
       <div class="footer_section">
-        <h1 class="name_page">Travel page</h1>
+        <h1 class="name_page">Pack Your Bags (PYB)</h1>
         <h2>Contact</h2>
         <address>
-          humber college north campus, mississuaga, Ontario<br>
+          Humber College North Campus, Toronto, Ontario<br>
           <a class="link_f" href="randommail.ghj@gmail.com">Email Us</a>
         </address>
       </div>
@@ -113,11 +112,11 @@
           <h2 class="title_f">Social media handles</h2>
           <ul class="ul_f">
             <li>
-              <a href="#">twitter</a>
+              <a href="#">Twitter</a>
             </li>
     
             <li>
-              <a href="#">facebook</a>
+              <a href="#">Facebook</a>
             </li>
                 
             <li>
@@ -135,7 +134,7 @@
             </li>
             
             <li>
-              <a href="#">busses</a>
+              <a href="#">Buses</a>
             </li>
             
             <li>
@@ -172,7 +171,7 @@
       </ul>
       
       <div class="copy_f">
-        <p>&copy; some random information</p>
+        <p>&copy; Pack Your Bags</p>
       </div>
     </footer>
   </body>

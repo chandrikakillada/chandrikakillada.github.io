@@ -1,29 +1,29 @@
 let $ = (selector) => document.querySelector(selector);
 window.onload = function () {
-  $('#SUBMIT').onclick = validate;
+  $('#SEARCH').onclick = validate;
 };
 
 function validate() {
-  let firstname = $('#fname');
-  let lastname = $('#lname');
+  let travellingfrom = $('#travelf');
+  let travellingto = $('#travelt');
   let namepattern = /^[a-zA-z]{2,30}$/;
   //   console.dir(namepattern);
 
-  if (firstname.value == '') {
-    firstname.nextElementSibling.innerHTML = 'Please enter first name';
-  } else if (!namepattern.test(firstname.value)) {
-    firstname.nextElementSibling.innerHTML =
-      'Please enter first name with letter only';
-  } else { 
-    firstname.nextElementSibling.innerHTML = 'valid first name';
+  if (travellingfrom.value == '') {
+    travellingfrom.nextElementSibling.innerHTML = 'Please enter travelling from';
+  } else if (!namepattern.test(travellingfrom.value)) {
+    travellingfrom.nextElementSibling.innerHTML =
+      'Please enter travelling from with letter only';
+  } else {
+    travellingfrom.nextElementSibling.innerHTML = 'valid travelling from';
   }
 
-    if (lastname.value == '') {
-      lastname.nextElementSibling.innerHTML = 'Please enter lastname';
-    } else if (!namepattern.test(lastname.value)) {
-      lastname.nextElementSibling.innerHTML =
-        'Please enter lastname with letter only';
+    if (travellingto.value == '') {
+      travellingto.nextElementSibling.innerHTML = 'Please enter travelling to';
+    } else if (!namepattern.test(travellingto.value)) {
+      travellingto.nextElementSibling.innerHTML =
+        'Please enter travelling to with letter only';
     } else {
-      lastname.nextElementSibling.innerHTML = 'valid lastname';
+      travellingto.nextElementSibling.innerHTML = 'valid travelling to';
     }
 }
